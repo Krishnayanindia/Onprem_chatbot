@@ -6,10 +6,10 @@ A powerful on-premise chatbot that combines Retrieval-Augmented Generation (RAG)
 
 - 🔒 **Fully On-Premise**: All components run locally for maximum data security
 - 📄 **Document Processing**: Support for PDF, TXT, CSV, XLSX, DOC(X), PPT(X)
-- 💾 **Database Integration**: Connect to PostgreSQL, MySQL, MS SQL Server, or Oracle
+- 💾 **Database Integration**: Connect to PostgreSQL, MySQL, MS SQL Server, or Oracle.
 - 🔍 **Vector Search**: Efficient document retrieval using LanceDB
 - 🤖 **Multiple LLM Support**: Compatible with any model available through Ollama
-- 🔄 **Natural Language to SQL**: Convert natural language queries to SQL
+- 🔄 **Natural Language to SQL**: Convert natural language queries to SQL- Future scope
 - 📊 **Interactive UI**: Built with Streamlit for easy interaction
 
 ## Prerequisites
@@ -98,24 +98,24 @@ python run_streamlit.py
 
 ## Using the Chatbot
 
-1. **Connect to Database (Optional)**:
-   - Use the sidebar to configure database connection
-   - Provide host, port, database name, and credentials
-   - Test connection and view schema
-
-2. **Upload Documents**:
+1. **Upload Documents**:
    - Use the file uploader in the sidebar
    - Supported formats: PDF, TXT, CSV, XLSX, DOC(X), PPT(X)
    - Multiple files can be uploaded simultaneously
 
-3. **Select Model**:
+2. **Select Model**:
    - Choose your preferred Ollama model from the dropdown
    - The model must be previously downloaded using `ollama pull`
 
-4. **Start Chatting**:
+3. **Start Chatting**:
    - Ask questions about your documents
    - Query your database using natural language
    - View sources and references in responses
+
+4. **Connect to Database (Optional)**:
+   - Use the sidebar to configure database connection
+   - Provide host, port, database name, and credentials
+   - Test connection and view schema
 
 ## Security Considerations
 
